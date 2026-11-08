@@ -1,0 +1,14 @@
+{
+  "topic": "api",
+  "previous": [
+    {"id":"gateway","email":"gateway@example.invalid","topics":["api"]},
+    {"id":"retired","email":"old-team@example.invalid","topics":["api"]}
+  ],
+  "current": [
+    {"id":"gateway","email":"gateway@example.invalid","topics":["api"]},
+    {"id":"banking","email":"banking@example.invalid","topics":["api","cloud"]},
+    {"id":"alias","email":"gateway@example.invalid","topics":["api"]},
+    {"id":"infra","email":"infra@example.invalid","topics":["cloud"]}
+  ],
+  "required": ["gateway","banking"]
+}
